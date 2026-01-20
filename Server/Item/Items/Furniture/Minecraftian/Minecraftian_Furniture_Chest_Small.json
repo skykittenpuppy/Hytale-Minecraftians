@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Furniture_Chest_Small.name",
+    "Description": "server.items.Minecraftian_Furniture.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Set": "Furniture_Minecraftian",
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Furniture_Chest_Small.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 8,
+        "ResourceTypeId": "Wood_Planks"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      }
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Blocks/Decorative_Sets/Minecraftian/Chest_Small.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Decorative_Sets/Minecraftian/Chest_Small_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods"
+      }
+    },
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#63412c",
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "ChestConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Default": "Minecraftian_Furniture_Chest_Small",
+        "Double": "Minecraftian_Furniture_Chest_Large"
+      }
+    },
+    "State": {
+      "Id": "container",
+      "Capacity": 27,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim"
+        }
+      }
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    },
+    "HitboxType": "Minecraftian_Chest"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Minecraftian"
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "MaxStack": 64,
+  "Quality": "Minecraftian"
+}

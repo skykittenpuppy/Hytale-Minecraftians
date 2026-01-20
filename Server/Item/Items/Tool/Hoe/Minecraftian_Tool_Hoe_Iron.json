@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Tool_Hoe_Iron.name",
+    "Description": "server.items.Minecraftian_Tool.description"
+  },
+  "Parent": "Tool_Hoe_Crude",
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Tool_Hoe_Iron.png",
+  "Quality": "Minecraftian",
+  "MaxStack": 1,
+  "Model": "Items/Minecraftian_Tool.blockymodel",
+  "Texture": "Items/Tools/Hoe/Minecraftian_Iron_Texture.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      }
+    ]
+  },
+  "MaxDurability": 300,
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      315,
+      90,
+      180
+    ],
+    "Translation": [
+      -20,
+      -20
+    ]
+  }
+}

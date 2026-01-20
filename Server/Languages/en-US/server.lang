@@ -1,0 +1,52 @@
+# Alex:		slim
+# Ari:		wide
+# Efe:		slim
+# Kai:		wide
+# Makena:	slim
+# Noor:		slim
+# Steve:	wide
+# Sunny:	wide
+# Zuri:		wide
+
+general.qualities.Minecraftian=Familiar
+
+benchCategories.minecraftianBrewingStand = Brewing Stand
+benchCategories.minecraftianCraftingTable = Crafting Table
+
+items.Minecraftian_Armor.description = [TMP] (WIP)
+items.Minecraftian_Bench.description = [TMP] (WIP)
+items.Minecraftian_Food.description = [TMP] (WIP)
+items.Minecraftian_Furniture.description = [TMP] (WIP)
+items.Minecraftian_Potion.description = The scent makes you remember, but what?
+items.Minecraftian_Tool.description = Despite the sharp edges, it feels comfortable in your hands.
+items.Minecraftian_Weapon.description = Despite the sharp edges, it feels comfortable in your hands.
+
+items.Minecraftian_Armor_Iron_Chest.name = Familiar Iron Chestplate (WIP)
+items.Minecraftian_Armor_Iron_Head.name = Familiar Iron Helmet
+items.Minecraftian_Armor_Iron_Legs.name = Familiar Iron Leggings (WIP)
+
+items.Minecraftian_Bench_Brewing_Stand.name = Brewing Stand
+items.Minecraftian_Bench_Crafting_Table.name = Crafting Table
+
+items.Minecraftian_Food_Bread.name = Familiar Loaf of Bread
+
+items.Minecraftian_Furniture_Chest_Small.name = Familiar Chest
+items.Minecraftian_Furniture_Chest_Large.name = Familiar Double Chest
+
+items.Minecraftian_Potion_Morph_Alex.name = Familiar Mint Potion
+items.Minecraftian_Potion_Morph_Ari.name = Familiar Orange Potion
+items.Minecraftian_Potion_Morph_Efe.name = Familiar Purple Potion
+items.Minecraftian_Potion_Morph_Kai.name = Familiar Black Potion
+items.Minecraftian_Potion_Morph_Makena.name = Familiar Yellow Potion
+items.Minecraftian_Potion_Morph_Noor.name = Familiar Red Potion
+items.Minecraftian_Potion_Morph_Steve.name = Familiar Cyan Potion
+items.Minecraftian_Potion_Morph_Sunny.name = Familiar Green Potion
+items.Minecraftian_Potion_Morph_Zuri.name = Familiar Tan Potion
+
+items.Minecraftian_Tool_Hatchet_Iron.name = Familiar Iron Axe
+items.Minecraftian_Tool_Hoe_Iron.name = Familiar Iron Hoe
+items.Minecraftian_Tool_Pickaxe_Iron.name = Familiar Iron Pickaxe
+items.Minecraftian_Tool_Shovel_Iron.name = Familiar Iron Shovel
+
+items.Minecraftian_Weapon_Spear_Iron.name = Familiar Iron Spear
+items.Minecraftian_Weapon_Sword_Iron.name = Familiar Iron Sword

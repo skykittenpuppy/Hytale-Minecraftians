@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Potion_Morph_Makena.name",
+    "Description": "server.items.Minecraftian_Potion.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Potion_Morph_Makena.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Potion_Empty",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 1
+      },
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Mushrooms"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Minecraftian_Brewing_Stand",
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Brew"
+        ]
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Root_Secondary_Consume_Potion_Morph"
+  },
+  "InteractionVars": {
+    "RemoveEffect": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    },
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Potion_Morph_Makena"
+        }
+      ]
+    },
+    "Stat_Check": {
+      "Interactions": [
+        {
+          "Parent": "Stat_Check",
+          "Costs": {
+            "Health": 1
+          },
+          "ValueType": "Percent",
+          "LessThan": false
+        }
+      ]
+    },
+    "ConsumeSFX": {
+      "Interactions": [
+        {
+          "Parent": "Consume_SFX",
+          "Effects": {
+            "LocalSoundEventId": "SFX_Health_Potion_Low_Drink"
+          }
+        }
+      ]
+    },
+    "ConsumedSFX": {
+      "Interactions": [
+        {
+          "Type": "Simple"
+        }
+      ]
+    }
+  },
+  "MaxStack": 10,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      180,
+      0
+    ],
+    "Translation": [
+      0,
+      -30
+    ]
+  },
+  "Quality": "Minecraftian",
+  "Set": "Potion_Minecraftian",
+  "Model": "Items/Minecraftian_Item.blockymodel",
+  "Texture": "Items/Consumables/Potions/Minecraftian_Makena.png",
+  "Categories": [
+    "Items.Potions"
+  ],
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Potion"
+    ]
+  }
+}

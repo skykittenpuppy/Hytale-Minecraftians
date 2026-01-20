@@ -1,0 +1,14 @@
+{
+  "StatusEffectIcon": "Icons/ItemsGenerated/Minecraftian_Potion_Morph_Alex.png",
+  "OverlapBehavior": "Overwrite",
+  "Duration": 60,
+  "ModelChange": "Alex_Slim",
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "Potion_Morph_Burst"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Bone_Break"
+  }
+}

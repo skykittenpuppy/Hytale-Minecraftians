@@ -1,0 +1,14 @@
+{
+  "StatusEffectIcon": "Icons/ItemsGenerated/Minecraftian_Potion_Morph_Sunny.png",
+  "OverlapBehavior": "Overwrite",
+  "Duration": 60,
+  "ModelChange": "Sunny_Wide",
+  "ApplicationEffects": {
+    "Particles": [
+      {
+        "SystemId": "Potion_Morph_Burst"
+      }
+    ],
+    "WorldSoundEventId": "SFX_Bone_Break"
+  }
+}

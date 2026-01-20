@@ -1,0 +1,104 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Armor_Iron_Head.name",
+    "Description": "server.items.Minecraftian_Armor.description"
+  },
+  "Quality": "Minecraftian",
+  "PlayerAnimationsId": "Block",
+  "ItemSoundSetId": "ISS_Armor_Heavy",
+  "Categories": [
+    "Items.Armors"
+  ],
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Armor_Iron_Head.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      0
+    ]
+  },
+  "Model": "Items/Armors/Minecraftian_Iron/Head.blockymodel",
+  "Texture": "Items/Armors/Minecraftian_Iron/Minecraftian_Iron.png",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      }
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "EquipItem"
+        }
+      ]
+    }
+  },
+  "Armor": {
+    "ArmorSlot": "Head",
+    "BaseDamageResistance": 0,
+    "CosmeticsToHide": [
+      "EarAccessory",
+      "Ear",
+      "Haircut",
+      "HeadAccessory"
+    ],
+    "DamageResistance": {
+      "Physical": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ],
+      "Projectile": [
+        {
+          "Amount": 0.05,
+          "CalculationType": "Multiplicative"
+        }
+      ]
+    },
+    "StatModifiers": {
+      "Health": [
+        {
+          "Amount": 9,
+          "CalculationType": "Additive"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 100,
+  "DurabilityLossOnHit": 0.5,
+  "Tags": {
+    "Type": [
+      "Armor"
+    ],
+    "Family": [
+      "Minecraftian_Iron"
+    ]
+  },
+  "Parent": "Armor_Iron_Head",
+  "Set": "Minecraftian_Iron"
+}

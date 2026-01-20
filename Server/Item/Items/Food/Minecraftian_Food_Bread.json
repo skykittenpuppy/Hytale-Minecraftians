@@ -1,0 +1,64 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Food_Bread.name",
+    "Description": "server.items.Minecraftian_Food.description"
+  },
+  "Interactions": {
+    "Secondary": "Root_Secondary_Consume_Food_T2"
+  },
+  "Quality": "Minecraftian",
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Food_Bread.png",
+  "InteractionVars": {
+    "Effect": {
+      "Interactions": [
+        {
+          "Type": "ApplyEffect",
+          "EffectId": "Food_Instant_Heal_Bread"
+        }
+      ]
+    }
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Plant_Crop_Wheat_Item",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      }
+    ]
+  },
+  "MaxStack": 64,
+  "DropOnDeath": true,
+  "IconProperties": {
+    "Scale": 1,
+    "Rotation": [
+      0,
+      180,
+      0
+    ],
+    "Translation": [
+      0,
+      -30
+    ]
+  },
+  "Model": "Items/Minecraftian_Item.blockymodel",
+  "Texture": "Items/Consumables/Food/Minecraftian_Bread.png",
+  "PlayerAnimationsId": "Item",
+  "Categories": [
+    "Items.Foods"
+  ],
+  "Tags": {
+    "Type": [
+      "Food"
+    ]
+  },
+  "Set": "Minecraftian_Food"
+}

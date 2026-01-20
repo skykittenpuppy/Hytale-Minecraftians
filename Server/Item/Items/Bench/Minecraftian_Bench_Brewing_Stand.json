@@ -1,0 +1,115 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Bench_Brewing_Stand.name",
+    "Description": "server.items.Minecraftian_Bench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Bench_Brewing_Stand.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 2
+      },
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 10
+      },
+      {
+        "ResourceTypeId": "Rock",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Brewing_Stand.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Brewing_Stand_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Minecraftian_Brewing_Stand",
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Gunsmith_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Gunsmith_Crafting.blockyanim"
+        }
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Alchemy_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Alchemy_Bench_Close",
+      "CompletedSoundEventId": "SFX_Alchemy_Bench_Craft",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Categories": [
+        {
+          "Id": "Minecraftian_Brew",
+          "Icon": "Icons/CraftingCategories/Minecraftian/Minecraftian_Brew.png",
+          "Name": "server.benchCategories.minecraftianBrewingStand"
+        }
+      ],
+      "Id": "Minecraftian_Brewing_Stand"
+    },
+    "BlockParticleSetId": "Stone",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone",
+    "InteractionHitboxType": "Minecraftian_Brewing_Stand_Interaction",
+    "ParticleColor": "#ffffff"
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Quality": "Minecraftian",
+  "Set": "Bench_Minecraftian"
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "skykittenpuppy",
+  "Name": "Minecraftian",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "skykittenpuppy",
+      "Email": "skykittenpuppy@beegirl.gay",
+      "Url": "beegirl.gay"
+    }
+  ],
+  "Website": "beegirl.gay",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

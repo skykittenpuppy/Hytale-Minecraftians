@@ -1,0 +1,101 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Weapon_Spear_Iron.name",
+    "Description": "server.items.Minecraftian_Weapon.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Minecraftian",
+  "Model": "Items/Weapons/Spear/Minecraftian_Iron.blockymodel",
+  "Texture": "Items/Weapons/Spear/Minecraftian_Iron_Texture.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      225,
+      90,
+      180
+    ],
+    "Translation": [
+      -40,
+      -40
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        "Spear_Stab"
+      ],
+      "Cooldown": {
+        "Id": "Spear_Stab",
+        "Cooldown": 1
+      }
+    },
+    "Secondary": "Spear_Block"
+  },
+  "InteractionVars": {
+    "Spear_Block_Damage": "Spear_Block_Damage",
+    "Spear_Stab_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Spear_Stab_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Spear_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Spear_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 6
+            },
+            "Type": "Absolute"
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Weapon_Spear_Iron.png",
+  "PlayerAnimationsId": "Spear",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Spear"
+    ]
+  },
+  "MaxDurability": 30,
+  "DurabilityLossOnHit": 0.56,
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Wood",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 2
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      }
+    ]
+  },
+  "MaxStack": 1
+}

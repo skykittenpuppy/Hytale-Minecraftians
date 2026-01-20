@@ -1,0 +1,14 @@
+{
+  "ItemTooltipTexture": "UI/ItemQualities/Tooltips/ItemTooltipMinecraftian.png",
+  "ItemTooltipArrowTexture": "UI/ItemQualities/Tooltips/ItemTooltipMinecraftianArrow.png",
+  "SlotTexture": "UI/ItemQualities/Slots/SlotMinecraftian.png",
+  "BlockSlotTexture": "UI/ItemQualities/Slots/SlotMinecraftian.png",
+  "SpecialSlotTexture": "UI/ItemQualities/Slots/SlotMinecraftian.png",
+  "TextColor": "#fbfbfb",
+  "LocalizationKey": "server.general.qualities.Minecraftian",
+  "VisibleQualityLabel": true,
+  "RenderSpecialSlot": true,
+  "ItemEntityConfig": {
+    "ParticleSystemId": "Drop_Common"
+  }
+}

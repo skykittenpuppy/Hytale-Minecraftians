@@ -1,0 +1,2171 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "R-Attachment",
+      "position": {"x": 0, "y": 17, "z": 0},
+      "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+      "shape": {
+        "type": "none",
+        "offset": {"x": 0, "y": 0, "z": 0},
+        "stretch": {"x": 0, "y": 0, "z": 0},
+        "settings": {
+          "isPiece": true
+        },
+        "textureLayout": {},
+        "unwrapMode": "custom",
+        "visible": true,
+        "doubleSided": true,
+        "shadingMode": "flat"
+      },
+      "children": [
+        {
+          "id": "2",
+          "name": "Origin_Projectile",
+          "position": {"x": 0, "y": 37, "z": 19},
+          "orientation": {"x": 0.5, "y": 0, "z": 0, "w": 0.86603},
+          "shape": {
+            "type": "none",
+            "offset": {"x": 0, "y": 0, "z": 0},
+            "stretch": {"x": 0, "y": 0, "z": 0},
+            "settings": {
+              "isPiece": false
+            },
+            "textureLayout": {},
+            "unwrapMode": "custom",
+            "visible": true,
+            "doubleSided": true,
+            "shadingMode": "flat"
+          },
+          "children": [
+            {
+              "id": "3",
+              "name": "Origin_Item",
+              "position": {"x": 0, "y": 0, "z": 0},
+              "orientation": {"x": -0.5, "y": 0, "z": 0, "w": 0.86603},
+              "shape": {
+                "type": "none",
+                "offset": {"x": 0, "y": 0, "z": 0},
+                "stretch": {"x": 0, "y": 0, "z": 0},
+                "settings": {
+                  "isPiece": false
+                },
+                "textureLayout": {},
+                "unwrapMode": "custom",
+                "visible": true,
+                "doubleSided": true,
+                "shadingMode": "flat"
+              },
+              "children": [
+                {
+                  "id": "4",
+                  "name": "Handle",
+                  "position": {"x": 0, "y": -54, "z": -19},
+                  "orientation": {"x": -0.5, "y": -0.5, "z": 0.5, "w": 0.5},
+                  "shape": {
+                    "type": "none",
+                    "offset": {"x": 0, "y": 0, "z": 0},
+                    "stretch": {"x": 0, "y": 0, "z": 0},
+                    "settings": {
+                      "isPiece": false
+                    },
+                    "textureLayout": {},
+                    "unwrapMode": "custom",
+                    "visible": true,
+                    "doubleSided": true,
+                    "shadingMode": "flat"
+                  },
+                  "children": [
+                    {
+                      "id": "5",
+                      "name": "Voxels",
+                      "position": {"x": -32, "y": 0, "z": 0},
+                      "orientation": {"x": -0.65328, "y": -0.2706, "z": -0.65328, "w": 0.2706},
+                      "shape": {
+                        "type": "box",
+                        "offset": {"x": 0, "y": 62, "z": 62},
+                        "stretch": {"x": 4, "y": 4, "z": 4},
+                        "settings": {
+                          "isPiece": false,
+                          "size": {"x": 1, "y": 32, "z": 32}
+                        },
+                        "textureLayout": {
+                          "right": {
+                            "offset": {"x": 32, "y": 0},
+                            "mirror": {"x": true, "y": false},
+                            "angle": 0
+                          },
+                          "left": {
+                            "offset": {"x": 0, "y": 0},
+                            "mirror": {"x": false, "y": false},
+                            "angle": 0
+                          }
+                        },
+                        "unwrapMode": "custom",
+                        "visible": true,
+                        "doubleSided": true,
+                        "shadingMode": "flat"
+                      },
+                      "children": [
+                        {
+                          "id": "6",
+                          "name": "NS-1--C1",
+                          "position": {"x": 0, "y": -32, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 32, "z": 0},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 0, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 0, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "7",
+                          "name": "NS-2--C2",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 4},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 1, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 1, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "8",
+                          "name": "NS-3--C3",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 8},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 2, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 2, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "9",
+                          "name": "NS-4--C4",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 12},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 3, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 3, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "10",
+                          "name": "NS-5--C5",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 16},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 4, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 4, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "11",
+                          "name": "NS-6--C6",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 20},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 5, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 5, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "12",
+                          "name": "NS-7--C7",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 24},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 6, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 6, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "13",
+                          "name": "NS-8--C8",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 28},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 7, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 7, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "14",
+                          "name": "NS-9--C9",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 32},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 8, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 8, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "15",
+                          "name": "NS-10--C10",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 36},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 9, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 9, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "16",
+                          "name": "NS-11--C11",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 40},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 10, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 10, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "17",
+                          "name": "NS-12--C12",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 44},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 11, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 11, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "18",
+                          "name": "NS-13--C13",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 48},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 12, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 12, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "19",
+                          "name": "NS-14--C14",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 52},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 13, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 13, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "20",
+                          "name": "NS-15--C15",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 56},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 14, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 14, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "21",
+                          "name": "NS-16--C16",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 60},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 15, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 15, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "22",
+                          "name": "NS-17--C17",
+                          "position": {"x": 0, "y": -32, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 32, "z": 64},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 16, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 16, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "23",
+                          "name": "NS-18--C18",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 68},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 17, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 17, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "24",
+                          "name": "NS-19--C19",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 72},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 18, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 18, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "25",
+                          "name": "NS-20--C20",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 76},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 19, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 19, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "26",
+                          "name": "NS-21--C21",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 80},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 20, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 20, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "27",
+                          "name": "NS-22--C22",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 84},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 21, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 21, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "28",
+                          "name": "NS-23--C23",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 88},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 22, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 22, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "29",
+                          "name": "NS-24--C24",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 92},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 23, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 23, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "30",
+                          "name": "NS-25--C25",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 96},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 24, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 24, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "31",
+                          "name": "NS-26--C26",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 100},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 25, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 25, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "32",
+                          "name": "NS-27--C27",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 104},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 26, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 26, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "33",
+                          "name": "NS-28--C28",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 108},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 27, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 27, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "34",
+                          "name": "NS-29--C29",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 112},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 28, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 28, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "35",
+                          "name": "NS-30--C30",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 116},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 29, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 29, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "36",
+                          "name": "NS-31--C31",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 120},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 30, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 30, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "37",
+                          "name": "NS-32--C32",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 62, "z": 124},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 32, "z": 1},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "back": {
+                                "offset": {"x": 31, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              },
+                              "front": {
+                                "offset": {"x": 31, "y": 0},
+                                "mirror": {"x": false, "y": false},
+                                "angle": 0
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "38",
+                          "name": "UD-1--C33",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 0, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 32},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 31},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "39",
+                          "name": "UD-2--C34",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 4, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 31},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 30},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "40",
+                          "name": "UD-3--C35",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 8, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 30},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 29},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "41",
+                          "name": "UD-4--C36",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 12, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 29},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 28},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "42",
+                          "name": "UD-5--C37",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 16, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 28},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 27},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "43",
+                          "name": "UD-6--C38",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 20, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 27},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 26},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "44",
+                          "name": "UD-7--C39",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 24, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 26},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 25},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "45",
+                          "name": "UD-8--C40",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 28, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 25},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 24},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "46",
+                          "name": "UD-9--C41",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 32, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 24},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 23},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "47",
+                          "name": "UD-10--C42",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 36, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 23},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 22},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "48",
+                          "name": "UD-11--C43",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 40, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 22},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 21},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "49",
+                          "name": "UD-12--C44",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 44, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 21},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 20},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "50",
+                          "name": "UD-13--C45",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 48, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 20},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 19},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "51",
+                          "name": "UD-14--C46",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 52, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 19},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 18},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "52",
+                          "name": "UD-15--C47",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 56, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 18},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 17},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "53",
+                          "name": "UD-16--C48",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 60, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 17},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 16},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "54",
+                          "name": "UD-17--C49",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 64, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 16},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 15},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "55",
+                          "name": "UD-18--C50",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 68, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 15},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 14},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "56",
+                          "name": "UD-19--C51",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 72, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 14},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 13},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "57",
+                          "name": "UD-20--C52",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 76, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 13},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 12},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "58",
+                          "name": "UD-21--C53",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 80, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 12},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 11},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "59",
+                          "name": "UD-22--C54",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 84, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 11},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 10},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "60",
+                          "name": "UD-23--C55",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 88, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 10},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 9},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "61",
+                          "name": "UD-24--C56",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 92, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 9},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 8},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "62",
+                          "name": "UD-25--C57",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 96, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 8},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 7},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "63",
+                          "name": "UD-26--C58",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 100, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 7},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 6},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "64",
+                          "name": "UD-27--C59",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 104, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 6},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 5},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "65",
+                          "name": "UD-28--C60",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 108, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 5},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 4},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "66",
+                          "name": "UD-29--C61",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 112, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 4},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 3},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "67",
+                          "name": "UD-30--C62",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 116, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 3},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 2},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "68",
+                          "name": "UD-31--C63",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 120, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 2},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 1},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        },
+                        {
+                          "id": "69",
+                          "name": "UD-32--C64",
+                          "position": {"x": 0, "y": -62, "z": -62},
+                          "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
+                          "shape": {
+                            "type": "box",
+                            "offset": {"x": 0, "y": 124, "z": 62},
+                            "stretch": {"x": 4, "y": 4, "z": 4},
+                            "settings": {
+                              "isPiece": false,
+                              "size": {"x": 1, "y": 1, "z": 32},
+                              "isStaticBox": true
+                            },
+                            "textureLayout": {
+                              "top": {
+                                "offset": {"x": 0, "y": 1},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 90
+                              },
+                              "bottom": {
+                                "offset": {"x": 32, "y": 0},
+                                "mirror": {"x": true, "y": true},
+                                "angle": 270
+                              }
+                            },
+                            "unwrapMode": "custom",
+                            "visible": true,
+                            "doubleSided": true,
+                            "shadingMode": "flat"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "format": "character",
+  "lod": "auto"
+}

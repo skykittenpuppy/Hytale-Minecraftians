@@ -1,0 +1,117 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Minecraftian_Bench_Crafting_Table.name",
+    "Description": "server.items.Minecraftian_Bench.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Minecraftian_Bench_Crafting_Table.png",
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 3,
+    "Input": [
+      {
+        "ResourceTypeId": "Wood_Trunk",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Minecraftian_Craft"
+        ],
+        "Id": "Minecraftian_Crafting_Table"
+      },
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "Id": "Workbench"
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Benches/Crafting_Table.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Benches/Crafting_Table_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+          "CustomModelAnimation": "Blocks/Benches/Gunsmith_Crafting.blockyanim",
+          "Looping": true
+        },
+        "CraftCompletedInstant": {
+          "CustomModelAnimation": "Blocks/Benches/Gunsmith_Crafting.blockyanim"
+        }
+      }
+    },
+    "Bench": {
+      "Type": "Crafting",
+      "LocalOpenSoundEventId": "SFX_Weapon_Bench_Open",
+      "LocalCloseSoundEventId": "SFX_Weapon_Bench_Close",
+      "CompletedSoundEventId": "SFX_Weapon_Bench_Craft",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Categories": [
+        {
+          "Id": "Minecraftian_Craft",
+          "Name": "server.benchCategories.minecraftianCraftingTable",
+          "Icon": "Icons/CraftingCategories/Minecraftian/Minecraftian_Craft.png"
+        }
+      ],
+      "Id": "Minecraftian_Crafting_Table"
+    },
+    "BlockParticleSetId": "Wood",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Wood",
+    "ParticleColor": "#ffffff",
+    "Supporting": {
+      "Up": [
+        {}
+      ]
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -16
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Quality": "Minecraftian",
+  "Set": "Bench_Minecraftian"
+}
